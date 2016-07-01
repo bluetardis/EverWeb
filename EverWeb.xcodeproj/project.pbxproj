@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1388CA2B1D271DFA00DE1389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388CA2A1D271DFA00DE1389 /* AppDelegate.swift */; };
+		1388CA2D1D271DFA00DE1389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388CA2C1D271DFA00DE1389 /* ViewController.swift */; };
+		1388CA301D271DFA00DE1389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1388CA2E1D271DFA00DE1389 /* Main.storyboard */; };
+		1388CA321D271DFA00DE1389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1388CA311D271DFA00DE1389 /* Assets.xcassets */; };
+		1388CA351D271DFA00DE1389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1388CA331D271DFA00DE1389 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1388CA271D271DFA00DE1389 /* EverWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1388CA2A1D271DFA00DE1389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1388CA2C1D271DFA00DE1389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1388CA2F1D271DFA00DE1389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1388CA311D271DFA00DE1389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1388CA341D271DFA00DE1389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1388CA361D271DFA00DE1389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1388CA241D271DFA00DE1389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1388CA1E1D271DFA00DE1389 = {
+			isa = PBXGroup;
+			children = (
+				1388CA291D271DFA00DE1389 /* EverWeb */,
+				1388CA281D271DFA00DE1389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1388CA281D271DFA00DE1389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1388CA271D271DFA00DE1389 /* EverWeb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1388CA291D271DFA00DE1389 /* EverWeb */ = {
+			isa = PBXGroup;
+			children = (
+				1388CA2A1D271DFA00DE1389 /* AppDelegate.swift */,
+				1388CA2C1D271DFA00DE1389 /* ViewController.swift */,
+				1388CA2E1D271DFA00DE1389 /* Main.storyboard */,
+				1388CA311D271DFA00DE1389 /* Assets.xcassets */,
+				1388CA331D271DFA00DE1389 /* LaunchScreen.storyboard */,
+				1388CA361D271DFA00DE1389 /* Info.plist */,
+			);
+			path = EverWeb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1388CA261D271DFA00DE1389 /* EverWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1388CA391D271DFB00DE1389 /* Build configuration list for PBXNativeTarget "EverWeb" */;
+			buildPhases = (
+				1388CA231D271DFA00DE1389 /* Sources */,
+				1388CA241D271DFA00DE1389 /* Frameworks */,
+				1388CA251D271DFA00DE1389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverWeb;
+			productName = EverWeb;
+			productReference = 1388CA271D271DFA00DE1389 /* EverWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1388CA1F1D271DFA00DE1389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Francesco;
+				TargetAttributes = {
+					1388CA261D271DFA00DE1389 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1388CA221D271DFA00DE1389 /* Build configuration list for PBXProject "EverWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1388CA1E1D271DFA00DE1389;
+			productRefGroup = 1388CA281D271DFA00DE1389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1388CA261D271DFA00DE1389 /* EverWeb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1388CA251D271DFA00DE1389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1388CA351D271DFA00DE1389 /* LaunchScreen.storyboard in Resources */,
+				1388CA321D271DFA00DE1389 /* Assets.xcassets in Resources */,
+				1388CA301D271DFA00DE1389 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1388CA231D271DFA00DE1389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1388CA2D1D271DFA00DE1389 /* ViewController.swift in Sources */,
+				1388CA2B1D271DFA00DE1389 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1388CA2E1D271DFA00DE1389 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1388CA2F1D271DFA00DE1389 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1388CA331D271DFA00DE1389 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1388CA341D271DFA00DE1389 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1388CA371D271DFB00DE1389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1388CA381D271DFB00DE1389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1388CA3A1D271DFB00DE1389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EverWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.timelabs.EverWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1388CA3B1D271DFB00DE1389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EverWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.timelabs.EverWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1388CA221D271DFA00DE1389 /* Build configuration list for PBXProject "EverWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1388CA371D271DFB00DE1389 /* Debug */,
+				1388CA381D271DFB00DE1389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1388CA391D271DFB00DE1389 /* Build configuration list for PBXNativeTarget "EverWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1388CA3A1D271DFB00DE1389 /* Debug */,
+				1388CA3B1D271DFB00DE1389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1388CA1F1D271DFA00DE1389 /* Project object */;
+}
