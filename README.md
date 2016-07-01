@@ -3,7 +3,6 @@
 <p align="center">
 <img src="EverWeb/Screenshots/elephant.png" width="280">  
 <br/>
-
 Disclaimer: This is not and official Evernote product
 <p>
 
