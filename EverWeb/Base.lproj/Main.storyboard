@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kDe-Wy-a4i">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kDe-Wy-a4i">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -20,7 +20,8 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="EverWeb" id="Sy7-04-PKM">
-                        <barButtonItem key="rightBarButtonItem" title="Refresh" id="ZPG-5S-ny8">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="ZPG-5S-ny8">
+                            <color key="tintColor" red="0.0" green="0.74117647060000003" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="onRefreshBtnTouchUpInside:" destination="BYZ-38-t0r" id="8yQ-1y-UUI"/>
                             </connections>
@@ -39,6 +40,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kip-Z6-vTq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.74117647060000003" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                            <color key="textColor" red="0.0" green="0.74117647058823533" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="9sd-EU-6QL"/>
